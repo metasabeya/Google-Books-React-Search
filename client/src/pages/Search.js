@@ -45,8 +45,8 @@ class Books extends Component {
     return (
       <div>
         <Jumbotron>
-          <h1>Google Books Search</h1>
-          <h5>Search for and Save Books of Interest</h5>
+          <h1>Google Books Search App</h1>
+          <h5>Search and Save Books </h5>
         </Jumbotron>
       <Container fluid>
       <Row>
@@ -64,7 +64,7 @@ class Books extends Component {
                 disabled={!(this.state.search)}
                 onClick={this.handleFormSubmit}
               >
-                Search Book
+                Search
               </FormBtn>
             </form>
             </div>
