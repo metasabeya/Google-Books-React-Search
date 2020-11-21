@@ -3,10 +3,6 @@ import Thumbnail from "../Thumbnail";
 import { Container, Row, Col } from "../Grid";
 import "./style.css";
 
-// export function BookList({ children }) {
-//   return <ul className="list-group">{children}</ul>;
-// }
-
 export function BookListItem(props) {
   return (
     <li className="list-group-item">

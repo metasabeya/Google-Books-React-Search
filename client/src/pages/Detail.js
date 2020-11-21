@@ -8,7 +8,7 @@ class Detail extends Component {
   state = {
     book: {}
   };
-  // When this component mounts, grab the book with the _id of this.props.match.params.id
+ 
   componentDidMount() {
     API.getBook(this.props.match.params.id)
       .then(res => this.setState({ book: res.data }))
